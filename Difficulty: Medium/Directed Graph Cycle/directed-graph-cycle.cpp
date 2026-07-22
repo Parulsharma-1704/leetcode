@@ -1,42 +1,41 @@
 class Solution {
-    bool dfs(int i, vector<vector<int>>&adj, vector<int>&state){
-        if(state[i]==2){
-            return false;
-        }
-        if(state[i]==1){
-            return true;
-        }
-        state[i]=1;
-        
-        for(int x : adj[i]){
-                if(dfs(x,adj,state)){
-                    return true;
-                }
-            
-        }
-        state[i]=2;
-        return false;
-    }
   public:
     bool isCyclic(int V, vector<vector<int>> &edges) {
         // code here
         vector<vector<int>>adj(V);
+        vector<int>inDegree(V,0);
+        
         for(auto p : edges){
             int u=p[0];
             int v=p[1];
-            
             adj[u].push_back(v);
-        }
-        vector<int>state(V,0);
+            inDegree[v]++;
+        }   
+        
+        queue<int>q;
         
         for(int i=0;i<V;i++){
-            if(state[i]==0){
-                if(dfs(i,adj,state)){
-                    return true;
+            if(inDegree[i]==0){
+                q.push(i);
+            }
+        }
+        vector<int>ans;
+        
+        while(!q.empty()){
+            int node=q.front();
+            q.pop();
+            ans.push_back(node);
+            
+            for(int x : adj[node]){
+                inDegree[x]--;
+                if(inDegree[x]==0){
+                    q.push(x);
                 }
             }
         }
-        
+        if(ans.size()<V){
+            return true;
+        }
         return false;
     }
 };
