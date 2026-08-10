@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/Parulsharma-1704/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0743-network-delay-time](https://github.com/Parulsharma-1704/leetcode/tree/master/0743-network-delay-time) |
 | [2685-count-the-number-of-complete-components](https://github.com/Parulsharma-1704/leetcode/tree/master/2685-count-the-number-of-complete-components) |
+| [3310-remove-methods-from-project](https://github.com/Parulsharma-1704/leetcode/tree/master/3310-remove-methods-from-project) |
 ## Binary Tree
 |  |
 | ------- |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/Parulsharma-1704/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0743-network-delay-time](https://github.com/Parulsharma-1704/leetcode/tree/master/0743-network-delay-time) |
 | [2685-count-the-number-of-complete-components](https://github.com/Parulsharma-1704/leetcode/tree/master/2685-count-the-number-of-complete-components) |
+| [3310-remove-methods-from-project](https://github.com/Parulsharma-1704/leetcode/tree/master/3310-remove-methods-from-project) |
 ## Math
 |  |
 | ------- |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/Parulsharma-1704/leetcode/tree/master/0743-network-delay-time) |
 | [2685-count-the-number-of-complete-components](https://github.com/Parulsharma-1704/leetcode/tree/master/2685-count-the-number-of-complete-components) |
+| [3310-remove-methods-from-project](https://github.com/Parulsharma-1704/leetcode/tree/master/3310-remove-methods-from-project) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
